@@ -1,9 +1,10 @@
 body{
     user-select:none;
+    width: 100%;
 }
-.wrap{
+/* .wrap{
     width:353px;
-}
+} */
 
 .btn{
     width:200px;
@@ -26,14 +27,21 @@ body{
     box-shadow: none;
 }
 
-.denkyuu{
+ .denkyuu{
+    
+    width: 320px;
+    height: 600px;
+    margin: 0 auto; 
+    
     position: relative;
-}
+} 
 
 #on {
     position: absolute;
     top:0;
     left:0;
+    width: 320px;
+    /* margin: 0 auto; */
     display: none;
 }
 
@@ -41,5 +49,7 @@ body{
     position: absolute;
     top:0;
     left:0;
+    width: 320px;
+    /* margin: 0 auto; */
     display: block;
 }
